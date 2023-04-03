@@ -1,0 +1,107 @@
+body{
+    background-color: #fc626f; 
+    margin: 0;
+    
+}
+
+#corpo{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    width: 100%; 
+}
+#campo-principal{
+    background-color: white;
+    border-radius: 10px; 
+    padding: 10px;
+    margin: 10px; 
+    width: 90%; 
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.397);
+}
+#foto-titulo{
+    width: 300px; 
+    padding-right: 20px;
+    margin-left: 50px;
+    margin-top: 20px;  
+}
+
+#campo-titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@font-face {
+    font-family: "crewniverse";
+    src: url(crewniverse_font.otf);
+}
+#campo-titulo h1{
+    padding-left: 20px;
+    margin-right: 50px;
+    font-size: 37px;
+    font-family: crewniverse;
+    color: #ffd249;
+   
+}
+#campo-titulo p{
+    padding-left: 20px;
+    margin-right: 50px; 
+    font-size: 20px;
+    
+    font-family: crewniverse;
+    color: #ffd249;
+}
+hr{
+    border-style: dotted none none none;
+    border-width: 5px; 
+    color: gray;
+    width: 20%; 
+    padding: 5px;
+}
+p{ 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    font-size: 16px;
+}
+#texto{
+    padding-left: 15%;
+    padding-right: 15%;
+    text-align: center;
+    padding-top: 60px;
+    
+}
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: start;
+    font-size: 19px;
+
+}
+#gif1{
+    width: 400px;
+    padding: 15px;
+}
+#menu{
+    list-style-type: none;
+    padding: 0;
+    background-color: #ffd249;
+    margin: 0;
+}
+#menu li{
+    display: inline-block;
+}
+#menu li a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 20px;
+    color: white;
+    font-size: 18px;
+    transition: background .4s;
+}
+#menu li a:hover{
+    background-color: #5fc6fc;
+    
+}
+nav{
+    margin-bottom: 20px;
+}

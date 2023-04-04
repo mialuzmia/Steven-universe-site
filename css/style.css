@@ -3,13 +3,37 @@ body{
     margin: 0;
     
 }
+#menu{
+    list-style-type: none;
+    padding: 0;
+    background-color: #ffd249;
+    margin: 0;
+}
+#menu li{
+    display: inline-block;
+}
+#menu li a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 20px;
+    color: white;
+    font-size: 18px;
+    transition: background .4s;
+}
+#menu li a:hover{
+    background-color: #5fc6fc;
+    
+}
+nav{
+    margin-bottom: 20px;
+}
 
 #corpo{
     display: flex;
     margin: 0;
     padding: 0;
     justify-content: center;
-    width: 100%; 
+    width: 100%;  
 }
 #campo-principal{
     background-color: white;
@@ -77,31 +101,12 @@ h2{
     font-size: 19px;
 
 }
-#gif1{
+.gif{
     width: 400px;
     padding: 15px;
 }
-#menu{
-    list-style-type: none;
-    padding: 0;
-    background-color: #ffd249;
-    margin: 0;
-}
-#menu li{
-    display: inline-block;
-}
-#menu li a{
-    display: inline-block;
-    text-decoration: none;
-    padding: 20px;
+
+footer{
     color: white;
-    font-size: 18px;
-    transition: background .4s;
-}
-#menu li a:hover{
-    background-color: #5fc6fc;
-    
-}
-nav{
-    margin-bottom: 20px;
+    text-align: center;
 }
